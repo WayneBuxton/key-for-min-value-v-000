@@ -4,6 +4,8 @@ require "pry"
 def key_for_min_value(name_hash)
 #  binding.pry
   key_for_min_value.sort do |key,value|
-    value < value
+  if value < value
+    key
+  end
  end
 end
