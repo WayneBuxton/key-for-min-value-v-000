@@ -6,6 +6,5 @@ def key_for_min_value(name_hash)
   key_for_min_value.find do |key,value|
   value < value
     key
-  end
  end
 end
