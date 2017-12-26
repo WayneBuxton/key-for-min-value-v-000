@@ -5,10 +5,10 @@ def key_for_min_value(name_hash)
   lowest_key = nil
   name_hash.collect do |key,value|
     binding.pry
-  if lowest_value == nil
-    lowest_value = value
-  elsif lowest_value > value
-    lowest_value = value
+  if lowest_key == nil
+    lowest_key = key
+  elsif lowest_key > key
+    lowest_key = key
   end
  end
 end
