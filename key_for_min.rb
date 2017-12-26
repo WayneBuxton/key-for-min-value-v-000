@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
   binding.pry
   key_for_min_value.collect do |key,value|
   if lowest_value == nil
-  
-  end 
+
+  end
  end
 end
