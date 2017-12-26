@@ -4,7 +4,6 @@ require "pry"
 def key_for_min_value(name_hash)
   lowest_key = nil
   name_hash.collect do |key,value|
-    binding.pry
   if lowest_key == nil
     lowest_key = key
   elsif name_hash[lowest_key] > name_hash[key]
