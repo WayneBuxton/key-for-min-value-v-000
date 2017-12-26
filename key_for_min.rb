@@ -7,7 +7,7 @@ def key_for_min_value(name_hash)
     binding.pry
   if lowest_key == nil
     lowest_key = key
-  elsif name_hash[lowest_key] == name_hash[key]
+  elsif name_hash[lowest_key] > name_hash[key]
     lowest_key = key
   end
  end
