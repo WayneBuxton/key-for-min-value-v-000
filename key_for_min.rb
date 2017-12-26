@@ -3,8 +3,8 @@
 require "pry"
 def key_for_min_value(name_hash)
   lowest_value = nil
-  binding.pry
   name_hash.collect do |key,value|
+    binding.pry
   if lowest_value == nil
   end
  end
